@@ -51,8 +51,7 @@ a {
   top: 3px;
 }
 #header-img {
-  margin: 19px 0 0;
-  height: 93px;
+  margin: 15px 0;
   width: 267px;
 
   /* TODO: A better way? */
@@ -61,6 +60,7 @@ a {
 }
 #header-bottom-left {
   background-image: url(%%img-hospital%%);
+  height: 115px;
 }
 /*
  * Header "hot - new - controversial - top - saved"
@@ -87,7 +87,7 @@ a {
 .tabmenu li a {
   background: none; border: none;
   font-size: 1.5em;
-  line-height: 1.2em;
+  line-height: 1.4em;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   color: #0A304E;
