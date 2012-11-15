@@ -1,6 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:300,400,700);
 /*
- *
  * Theme by Tom Dooner, Computer Science '13
  * Version 1.0
  *
@@ -22,6 +20,25 @@ a {
 .content {
   margin-top: 12px;
 }
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Titillium WebBold'), local('TitilliumWeb-Bold'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/anMUvcNT0H1YN4FII8wpr_5rZpfU3XI-FvUPGDRT0xY.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/anMUvcNT0H1YN4FII8wpr1uKlGE8-OjkUKWan_M3D6s.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/7XUFZ5tgS-tD6QamInJTcZ_o9VAbKgK36i-4snuAuCM.woff) format('woff');
+}
+
 /*
  * ==========================================================================
  * Header Styles
@@ -99,13 +116,14 @@ a {
  */
 #header-bottom-right {
   font-family: 'Titillium Web', sans-serif;
-  border-left-top-radius: 0;
+  border-top-left-radius: 0;
   background: none;
   font-size: 14px;
   line-height: 17px;
 }
 #header-bottom-right .separator {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
+  opacity: 0.5;
 }
 /*
  * ==========================================================================
