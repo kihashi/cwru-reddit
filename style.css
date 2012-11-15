@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:300,400,700);
+/*
+ *
+ * Theme by Tom Dooner, Computer Science '13
+ * Version 1.0
+ *
+ * Please, someone, help me make this pretty.
+ *
+ * Official Source:
+ * https://github.com/ted27/cwru-reddit
+ *
+ */
+
+/*
+ * ==========================================================================
+ * Global Styles
+ * ==========================================================================
+ */
+a {
+  color: #0A304E;
+}
+.content {
+  margin-top: 12px;
+}
+/*
+ * ==========================================================================
+ * Header Styles
+ * ==========================================================================
+ */
+#header {
+  background-color: #0A304E;
+  border-bottom: 1px solid #0A304E;
+}
+#header #sr-header-area {
+  border: 0;
+  background-color: #0A304E;
+}
+.sr-bar a {
+  color: #CCC;
+}
+.redditname a {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-size: 28px;
+  line-height: 38px;
+  font-variant: normal;
+  color: #0A304E;
+
+  /* TODO: A better way? */
+  position: relative;
+  top: 3px;
+}
+#header-img.default-header {
+  margin: 20px 0 0;
+  background-position: 0 -4px;
+  background-repeat: no-repeat;
+  height: 93px;
+  width: 267px;
+}
+#header-bottom-left {
+  background-image: url(%%img-hospital%%);
+}
+/*
+ * Header "hot - new - controversial - top - saved"
+ */
+.tabmenu {
+  margin-left: 40px;
+}
+.tabmenu li {
+  font-weight: normal;
+  margin: 0;
+}
+.tabmenu li:before {
+  content: "-";
+  padding: 0 4px;
+}
+.tabmenu li:first-child:before {
+  content: "";
+}
+.tabmenu li.selected a {
+  background: none; border: none;
+  color: black;
+  font-weight: 700;
+}
+.tabmenu li a {
+  background: none; border: none;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  color: #0A304E;
+}
+.tabmenu li a:hover {
+  font-weight: 800;
+}
+/*
+ * Header username area
+ */
+#header-bottom-right {
+  font-family: 'Titillium Web', sans-serif;
+  border-left-top-radius: 0;
+  background: none;
+  font-size: 14px;
+  line-height: 17px;
+}
+#header-bottom-right .separator {
+  color: rgba(255, 255, 255, 0.5);
+}
+/*
+ * ==========================================================================
+ * Content Table styles
+ * ==========================================================================
+ */
+.link .title {
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+}
+.link .score {
+  font: 400 1.3em/1.5em 'Titillium Web', sans-serif;
+}
+.link .rank {
+  color: #ddd;
+  font: medium 'Titillium Web', sans-serif;
+  margin-top: 16px;
+}
+.tagline {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1em;
+  letter-spacing: 1px;
+}
+.domain {
+  font-size: 1em;
+}
+.midcol {
+  margin: 0 9px;
+  padding-top: 4px;
+}
+.flair {
+  line-height: 1.2em;
+}
+.buttons {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.expando-button {
+  margin: 2px 8px 0 0;
+}
