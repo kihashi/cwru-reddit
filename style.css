@@ -20,24 +20,6 @@ a {
 .content {
   margin-top: 12px;
 }
-@font-face {
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Titillium WebBold'), local('TitilliumWeb-Bold'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/anMUvcNT0H1YN4FII8wpr_5rZpfU3XI-FvUPGDRT0xY.woff) format('woff');
-}
-@font-face {
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/anMUvcNT0H1YN4FII8wpr1uKlGE8-OjkUKWan_M3D6s.woff) format('woff');
-}
-@font-face {
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/7XUFZ5tgS-tD6QamInJTcZ_o9VAbKgK36i-4snuAuCM.woff) format('woff');
-}
 
 /*
  * ==========================================================================
@@ -60,7 +42,7 @@ a {
   font-weight: 400;
   letter-spacing: -1px;
   font-size: 28px;
-  line-height: 38px;
+  line-height: 33px;
   font-variant: normal;
   color: #0A304E;
 
@@ -68,12 +50,14 @@ a {
   position: relative;
   top: 3px;
 }
-#header-img.default-header {
-  margin: 20px 0 0;
-  background-position: 0 -4px;
-  background-repeat: no-repeat;
+#header-img {
+  margin: 19px 0 0;
   height: 93px;
   width: 267px;
+
+  /* TODO: A better way? */
+  position: relative;
+  top: 3px;
 }
 #header-bottom-left {
   background-image: url(%%img-hospital%%);
@@ -103,7 +87,7 @@ a {
 .tabmenu li a {
   background: none; border: none;
   font-size: 1.5em;
-  line-height: 1.4em;
+  line-height: 1.2em;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   color: #0A304E;
@@ -134,9 +118,11 @@ a {
   font-family: 'Titillium Web', sans-serif;
   letter-spacing: 1px;
   font-size: 1.3em;
+  line-height: 1.6em;
 }
 .link .score {
   font: 400 1.3em/1.5em 'Titillium Web', sans-serif;
+  padding-top: 3px;
 }
 .link .rank {
   color: #ddd;
