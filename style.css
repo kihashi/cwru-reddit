@@ -38,7 +38,6 @@ a {
   color: #CCC;
 }
 .redditname a {
-  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   letter-spacing: -1px;
   font-size: 28px;
@@ -84,7 +83,6 @@ a {
   background: none; border: none;
   font-size: 1.5em;
   line-height: 1.4em;
-  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   color: #0A304E;
 }
@@ -95,7 +93,6 @@ a {
  * Header username area
  */
 #header-bottom-right {
-  font-family: 'Titillium Web', sans-serif;
   border-top-left-radius: 0;
   background: none;
   font-size: 14px;
@@ -111,22 +108,20 @@ a {
  * ==========================================================================
  */
 .link .title {
-  font-family: 'Titillium Web', sans-serif;
   letter-spacing: 1px;
   font-size: 1.3em;
   line-height: 1.6em;
 }
 .link .score {
-  font: 400 1.3em/1.5em 'Titillium Web', sans-serif;
+  font: 400 1.3em/1.5em sans-serif;
   padding-top: 3px;
 }
 .link .rank {
   color: #ddd;
-  font: medium 'Titillium Web', sans-serif;
+  font: medium sans-serif;
   margin-top: 16px;
 }
 .tagline {
-  font-family: 'Titillium Web', sans-serif;
   font-size: 1.2em;
   font-weight: 300;
   line-height: 1em;
@@ -143,7 +138,6 @@ a {
   line-height: 1.2em;
 }
 .buttons {
-  font-family: 'Titillium Web', sans-serif;
   font-size: 1.2em;
   line-height: 1.6em;
   font-weight: 800;
