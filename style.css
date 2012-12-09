@@ -107,6 +107,6 @@ a {
  * For Reddit enhancement suite:
  */
 .res-navTop {
-  background-color: white;
+  background-color: white !important;
   opacity: 0.9;
 }
