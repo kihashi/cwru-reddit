@@ -33,6 +33,7 @@ a {
 #header #sr-header-area {
   border: 0;
   background-color: #0A304E;
+  color: darkgrey;
 }
 .sr-bar a {
   color: #CCC;
@@ -101,6 +102,13 @@ a {
 #header-bottom-right .separator {
   color: white;
   opacity: 0.5;
+}
+/*
+ * For Reddit enhancement suite:
+ */
+#res-navTop {
+  background-color: white;
+  opacity: 0.9;
 }
 /*
  * ==========================================================================
