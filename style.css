@@ -1,6 +1,6 @@
 /*
  * Theme by Tom Dooner, Computer Science '13
- * Version 1.0
+ * Version 1.1
  *
  * Please, someone, help me make this pretty.
  *
@@ -14,7 +14,7 @@
  * Global Styles
  * ==========================================================================
  */
-a {
+#header a {
   color: #0A304E;
 }
 .content {
@@ -35,7 +35,7 @@ a {
   background-color: #0A304E;
   color: darkgrey;
 }
-.sr-bar a {
+#sr-header-area a {
   color: #CCC;
 }
 .redditname a {
