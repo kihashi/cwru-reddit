@@ -1,6 +1,6 @@
 /*
  * Theme by Tom Dooner, Computer Science '13
- * Version 1.1
+ * Version 1.2
  *
  * Please, someone, help me make this pretty.
  *
@@ -35,8 +35,8 @@
   background-color: #0A304E;
   color: darkgrey;
 }
-#sr-header-area a {
-  color: #CCC;
+.sr-list a, .dropdown .selected {
+  color: #CCC !important;
 }
 .redditname a {
   font-weight: 400;
